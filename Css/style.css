@@ -43,12 +43,13 @@ body {
     }
 
     & img.Logo {
-        height: clamp(10vw, 15vw, 20vw);
+        width: clamp(250px, 50%, 20vw);
     }
 
     & img.Wave {
         position: absolute;
-        bottom: -30px;
+        /* bottom: -0; */
+        bottom: clamp(-1px, -10px, -150px);
         left: 0;
         width: 100%;
     }
