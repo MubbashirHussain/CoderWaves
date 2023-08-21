@@ -43,7 +43,7 @@ body {
     }
 
     & img.Logo {
-        height: clamp(10vw, 15vw, 20vw);
+        width: clamp(250px, 50%, 20vw);
     }
 
     & img.Wave {
